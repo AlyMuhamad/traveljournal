@@ -45,7 +45,7 @@ function PostsRow() {
             }}
           />
           <div>March 14, 2023</div>
-          <div className={styles.title}>Symphonies in Steel</div>
+          <div className={styles.title}>Beauty as a building</div>
           <div>
             If you only have one day to visit and you want to make the most out
             of it

@@ -5,14 +5,14 @@ function Footer() {
     <div className={styles.section}>
       <div className={styles.content}>
         <div className={styles.footerRow}>
-          <div className={styles.head}>Artplatform</div>
-          <div>where artists get the value they deserve</div>
+          <div className={styles.head}>Travel Journal</div>
+          <div>where you see the world while in your place</div>
         </div>
         <div className={styles.footerRow}>
           <div className={styles.head}>Explore</div>
-          <div>Art</div>
-          <div>Collections</div>
-          <div>Domain name</div>
+          <div>Explore</div>
+          <div>Journal</div>
+          <div>Domain Name</div>
           <div>Utility</div>
         </div>
         <div className={styles.footerRow}>

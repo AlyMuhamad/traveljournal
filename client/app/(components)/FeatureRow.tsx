@@ -1,3 +1,4 @@
+import { IoLocation } from 'react-icons/io5';
 import Link from 'next/link';
 import styles from './FeatureRow.module.css';
 import Image from 'next/image';
@@ -23,9 +24,12 @@ function FeatureRow() {
               height: 'auto',
             }}
           />
-          <div className={styles.label}>
-            <div className={styles.place}>fjord in summer</div>
-            <div>Norway</div>
+          <div className={styles.locationInfo}>
+            <IoLocation className={styles.locationIcon} />
+            <div className={styles.label}>
+              <div className={styles.place}>fjord in summer</div>
+              <div>Norway</div>
+            </div>
           </div>
         </div>
         <div className={styles.card}>
@@ -40,9 +44,12 @@ function FeatureRow() {
               height: 'auto',
             }}
           />
-          <div className={styles.label}>
-            <div className={styles.place}>{`St. Basil's Cathedral`}</div>
-            <div>Russia</div>
+          <div className={styles.locationInfo}>
+            <IoLocation className={styles.locationIcon} />
+            <div className={styles.label}>
+              <div className={styles.place}>{`St. Basil's Cathedral`}</div>
+              <div>Russia</div>
+            </div>
           </div>
         </div>
         <div className={styles.card}>
@@ -57,9 +64,12 @@ function FeatureRow() {
               height: 'auto',
             }}
           />
-          <div className={styles.label}>
-            <div className={styles.place}>Brandenburg Gate</div>
-            <div>Germany</div>
+          <div className={styles.locationInfo}>
+            <IoLocation className={styles.locationIcon} />
+            <div className={styles.label}>
+              <div className={styles.place}>Brandenburg Gate</div>
+              <div>Germany</div>
+            </div>
           </div>
         </div>
       </div>
