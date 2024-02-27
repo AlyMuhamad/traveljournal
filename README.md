@@ -1,6 +1,6 @@
 # TravelJournal
 
-**[Notes app](https://note-apps-phi.vercel.app/)** is a web app that document beatiful places around the world.
+**[TravelJournal](https://traveljournal-alpha.vercel.app/)** is a web app that document beatiful places around the world.
 
 ## quick notes about the project
 
