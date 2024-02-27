@@ -1,0 +1,33 @@
+.section {
+  max-width: 121.5rem;
+  margin: 6rem auto 12rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  align-items: center;
+}
+
+.headline {
+  font-size: 4rem;
+}
+
+.input {
+  position: relative;
+  color: #000;
+}
+
+.email {
+  padding: 1rem;
+  /* border-radius: 1.2rem; */
+  border: none;
+  width: 50rem;
+  font-size: 2rem;
+}
+
+.btn {
+  font-size: 2rem;
+  padding: 1.2rem;
+  position: absolute;
+  right: 0;
+}

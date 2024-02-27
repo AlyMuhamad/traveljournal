@@ -1,0 +1,21 @@
+.section {
+  background-image: url('../(assets)/2.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.content {
+  max-width: 121.5rem;
+  margin: 12rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.headline {
+  font-family: 'Playfair Display', serif;
+  font-size: 8rem;
+  font-weight: 600;
+}

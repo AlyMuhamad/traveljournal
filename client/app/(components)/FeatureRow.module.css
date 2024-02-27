@@ -1,0 +1,45 @@
+.section {
+  max-width: 121.5rem;
+  margin: 6rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  color: #fff;
+}
+
+.headline {
+  font-size: 4rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 3rem 0;
+}
+
+.card {
+  position: relative;
+}
+
+.landmarkpic {
+  border-radius: 1.2rem;
+}
+
+.label {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.place {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+}
